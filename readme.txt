@@ -45,6 +45,7 @@ This Phoenix125 Edition has a few minor new features added to Dateranoth's origi
 3. The option to enable/disable MOD UPDATE announcements prior to a server restart.
 * Why these minor features?  I wanted my Discord users to be notified of mod or server updates, but not be spammed with daily server restarts.
 4. The ability to run an external script before and/or AFTER steamcmd file validation: added by request.
+5. Simplified the .ini file.
 
 Features already included from Dateranoth's original ConanServerUtility v3.2.3:
 - OK to use with most other server managers: Use this tool to install and maintain the server and use your other tools to manage game play features.
@@ -88,6 +89,7 @@ https://gamercide.org/forum/topic/10558-conan-exiles-server-utility/
 (2019-01-10) v1.1
 - Added separate announcement options for mod updates and server updates.
 - Fixed: Server would restart with each update check, even if server was up-to-date.
+- Simplified the .ini file:Changed "MCRCON" wording to "In Game" for announcements and elimited the need to assign a directory for mcrcon.
 
 (2019-01-09) v1.0 Initial Release
 This Phoenix125 Edition has two new features added to Dateranoth's original ConanServerUtility:
