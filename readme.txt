@@ -1,5 +1,5 @@
 ConanServerUtility_Phoenix125_Edition - A Utility to Keep Your Conan Exiles Dedicated Server updated (and schedule server restarts, download and install new server files, and more!)
-- Latest version: ConanServerUtility_Phoenix125_Edition_v1.1 (2019-01-10)
+- Latest version: ConanServerUtility_Phoenix125_Edition_v1.3 (2019-01-25)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 - A slightly modified version of Dateranoth's ConanExilesServerUtility-3.2.3 | https://gamercide.org/
 
@@ -86,10 +86,16 @@ https://gamercide.org/forum/topic/10558-conan-exiles-server-utility/
 -----------------
  VERSION HISTORY
 -----------------
+(2019-01-25) v1.3
+- Fixed: A condition that causes continuous update loops. (It now deletes the appmanifest_443030.acf file when server update needed and forces validate)
+
+(2019-01-11) v1.2
+- Fixed: Error announcing mod updates to Discord
+
 (2019-01-10) v1.1
 - Added separate announcement options for mod updates and server updates.
 - Fixed: Server would restart with each update check, even if server was up-to-date.
-- Simplified the .ini file:Changed "MCRCON" wording to "In Game" for announcements and elimited the need to assign a directory for mcrcon.
+- Simplified the .ini file: Changed "MCRCON" wording to "In Game" for announcements and eliminated the need to assign a directory for mcrcon.
 
 (2019-01-09) v1.0 Initial Release
 This Phoenix125 Edition has two new features added to Dateranoth's original ConanServerUtility:
