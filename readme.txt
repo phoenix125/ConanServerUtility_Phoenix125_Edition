@@ -1,5 +1,5 @@
 ConanServerUtility_Phoenix125_Edition - A Utility to Keep Your Conan Exiles Dedicated Server updated (and schedule server restarts, download and install new server files, and more!)
-- Latest version: ConanServerUtility_Phoenix125_Edition_v1.3 (2019-01-25)
+- Latest version: ConanServerUtility_Phoenix125_Edition_v1.3.4 (2019-08-22)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 - A slightly modified version of Dateranoth's ConanExilesServerUtility-3.2.3 | https://gamercide.org/
 
@@ -86,6 +86,28 @@ https://gamercide.org/forum/topic/10558-conan-exiles-server-utility/
 -----------------
  VERSION HISTORY
 -----------------
+(2019-08-22) v1.3.4 Added Remote Restart Announcements & SteamCMD login
+- Added: Added announcement options for Remote Restart. (Thanks to MG_Gimpy for requesting)
+- Added: Optional SteamCMD login credentials to help with mod updates.
+- Fixed: Several restart options that would cause errors.
+
+[ New Config Parameters/Changes ]
+Message to Announce Server Restarts on Discord and Twitch (if enabled)? -> AnnounceRemoteRestartMessage
+Use Discord Bot to Announce Scheduled/Update Restarts? (yes/no) -> UseDiscordBotRemoteRestart
+Use Twitch Bot to Announce Scheduled/Update Restarts? (yes/no) -> UseTwitchBotRemoteRestart
+Send In Game Message to Announce Scheduled/Update Restarts? (yes/no) -> UseInGameRemoteRestart
+SteamCMD Login Settings -> SteamLoginName (Leave blank for anonymous)
+SteamCMD Login Settings -> SteamLoginPassword
+
+(2019-08-20) v1.3.3
+- Fixed: Line 4522 Error: Variable used without being declared. (Thanks to MG_Gimpy [SBS] for reporting)
+
+(2019-04-29) v1.3.2
+- Fixed: Line 4601 Error: Error in expression.
+
+(2019-03-28) v1.3.1
+- Added: Option to fully restart the utility during Conan updates. .ini file: [Restart Utility With Updates? (yes/no)] , restartutility=yes 
+
 (2019-01-25) v1.3
 - Fixed: A condition that causes continuous update loops. (It now deletes the appmanifest_443030.acf file when server update needed and forces validate)
 
