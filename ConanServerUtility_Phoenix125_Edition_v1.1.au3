@@ -387,7 +387,7 @@ Func ReadUini($sIniFile, $sLogFile)
 		$iIniFail += 1
 	EndIf
 	If $iniCheck = $g_sExternalScriptDir Then
-		$g_sExternalScriptDir = "D:\Game Servers\Conan Exiles Dedicated Server\Conan Exiles Dedicated Server\Scripts"
+		$g_sExternalScriptDir = "D:\Game Servers\Conan Exiles Dedicated Server\Scripts"
 		$iIniFail += 1
 	EndIf
 	If $iniCheck = $g_sExternalScriptName Then
@@ -399,7 +399,7 @@ Func ReadUini($sIniFile, $sLogFile)
 		$iIniFail += 1
 	EndIf
 	If $iniCheck = $g_sExternalScriptDirValidate Then
-		$g_sExternalScriptDirValidate = "D:\Game Servers\Conan Exiles Dedicated Server\Conan Exiles Dedicated Server\Scripts"
+		$g_sExternalScriptDirValidate = "D:\Game Servers\Conan Exiles Dedicated Server\Scripts"
 		$iIniFail += 1
 	EndIf
 	If $iniCheck = $g_sExternalScriptNameValidate Then
