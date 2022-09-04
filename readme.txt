@@ -1,5 +1,5 @@
 ConanServerUtility_Phoenix125_Edition - A Utility to Keep Your Conan Exiles Dedicated Server updated (and schedule server restarts, download and install new server files, and more!)
-- Latest version: ConanServerUtility_Phoenix125_Edition_v1.3.4 (2019-08-22)
+- Latest version: ConanServerUtility_Phoenix125_Edition_v1.3.6 (2022-09-04)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 - A slightly modified version of Dateranoth's ConanExilesServerUtility-3.2.3 | https://gamercide.org/
 
@@ -86,6 +86,14 @@ https://gamercide.org/forum/topic/10558-conan-exiles-server-utility/
 -----------------
  VERSION HISTORY
 -----------------
+(2022-09-04) v1.3.6 Added Online Player accounement
+- Added: Optional Players Online Count in Discord
+- Added: Optional Steam Query Check for crashed server
+- Fixed: SteamCMD update: moved +login before +force_install_dir
+
+(2019-08-25) v1.3.5 Bug fix.
+- Fixed: "Line 4029" error. (Thanks to Dead Duck for reporting)
+
 (2019-08-22) v1.3.4 Added Remote Restart Announcements & SteamCMD login
 - Added: Added announcement options for Remote Restart. (Thanks to MG_Gimpy for requesting)
 - Added: Optional SteamCMD login credentials to help with mod updates.
